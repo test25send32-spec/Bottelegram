@@ -1,0 +1,44 @@
+# Python bytecode and virtual environments
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+env/
+ENV/
+
+# Local environment variables and credentials
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Runtime data, databases, and logs
+/data/
+*.db
+*.sqlite
+*.sqlite3
+*.log
+/backups/
+
+# Test, lint, and coverage output
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Front-end/build artifacts
+node_modules/
+dist/
+build/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
